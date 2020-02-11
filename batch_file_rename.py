@@ -86,6 +86,10 @@ def main():
 
     batch_rename(work_dir, old_ext, new_ext)
 
+# argparse 模块  学习地址：
+# https://docs.python.org/zh-cn/3.7/library/argparse.html#creating-a-parser
+# https://docs.python.org/zh-cn/3.7/howto/argparse.html#id1
+
 # argparse 模块可以让人轻松编写用户友好的命令行接口。
 # 只能通过  命令行执行  命令
 # 【python 所在dir\batch_file_rename.py  work_dir old_ext new_ext 】
